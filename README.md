@@ -18,7 +18,7 @@ Print an HTML file or URL to PDF
 Options:
   --version                Show version number                         [boolean]
   --help                   Show help                                   [boolean]
-  --sandbox                                            [boolean] [default: true]
+  --sandbox                                           [boolean] [default: false]
   --timeout                                            [number] [default: 30000]
   --wait-until                                        [string] [default: "load"]
   --cookie                 Set a cookie in the form "key:value". May be repeated
@@ -28,7 +28,7 @@ Options:
   --margin-right                                             [default: "6.25mm"]
   --margin-bottom                                           [default: "14.11mm"]
   --margin-left                                              [default: "6.25mm"]
-  --format                                                   [default: "Letter"]
+  --format                                                       [default: "A4"]
   --landscape                                         [boolean] [default: false]
   --display-header-footer                             [boolean] [default: false]
   --header-template                                       [string] [default: ""]

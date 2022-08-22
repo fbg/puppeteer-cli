@@ -9,7 +9,7 @@ const isUrl = require('is-url');
 const commonOptions = {
     'sandbox': {
         boolean: true,
-        default: true
+        default: false
     },
     'timeout': {
         default: 30 * 1000,
@@ -48,7 +48,7 @@ const argv = require('yargs')
                 default: '6.25mm'
             },
             'format': {
-                default: 'Letter'
+                default: 'A4'
             },
             'landscape': {
                 boolean: true,
