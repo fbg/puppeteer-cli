@@ -5,7 +5,12 @@ A command-line wrapper for generating PDF prints and PNG screenshots with [Puppe
 ## Install
 
 ```bash
-npm install -g puppeteer-cli
+cd /usr/lib/node_modules/
+git clone ...
+cd puppeteer-cli
+npm i
+cd /usr/bin/
+ln -s ../lib/node_modules/puppeteer-cli/index.js puppeteer
 ```
 
 ## Usage
